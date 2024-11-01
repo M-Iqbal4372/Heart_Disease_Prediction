@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load your trained model
-model = joblib.load('D:\Jarvis\Heart Diseases Prediction\my_model.pkl')
+model = joblib.load('my_model.pkl')
 
-data = pd.read_csv('D:\Jarvis\Heart Diseases Prediction\heart_disease_uci.csv')
+data = pd.read_csv('heart_disease_uci.csv')
 
 
 
